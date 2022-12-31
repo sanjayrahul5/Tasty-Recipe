@@ -30,9 +30,9 @@ function generateHTML(results){
           <h1 class="title">${result.recipe.label}</h1>
           <a class="view-btn" target="_blank" href="${result.recipe.url}">View Recipe</a>
         </div>
-        <p class="item-data">Calories: ${result.recipe.calories.toFixed(2)}</p>
-        <p class="item-data">Diet label: ${result.recipe.dietLabels.length > 0 ? result.recipe.dietLabels : 'No Data Found'}</p>
-        <p class="item-data">Health labels: ${result.recipe.healthLabels}</p>
+        <p class="item-data"><span>Calories:</span> ${result.recipe.calories.toFixed(2)}</p>
+        <p class="item-data"><span>Diet label:</span> ${result.recipe.dietLabels.length > 0 ? result.recipe.dietLabels : 'No Data Found'}</p>
+        <p class="item-data"><span>Health labels:</span> ${result.recipe.healthLabels}</p>
       </div>
     `
   })
