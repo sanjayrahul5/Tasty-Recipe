@@ -211,7 +211,9 @@ form {
   .search-result {
     grid-gap: 10px
   }
-
+.brand{
+  font-family: 'Poppins', sans-serif;
+}  
   .container.initial .brand {
     font-size: 4rem;
   }
