@@ -202,6 +202,9 @@ span{
 }
 
 @media (max-width: 768px) {
+  html{
+    font-family:'Poppins', sans-serif;
+  }
   input.ip {
     height: 50px;
 }
