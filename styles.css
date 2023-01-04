@@ -79,7 +79,7 @@ form {
   width: 50%;
   max-width: 350px;
   margin: 20px auto;
-  background-color: rgb(29, 21, 21);
+  background-color: rgb(17, 16, 18);
 }
 
 input {
@@ -202,6 +202,12 @@ span{
 }
 
 @media (max-width: 768px) {
+  input.ip {
+    height: 50px;
+}
+form {
+  width: 70%;
+}
   .search-result {
     grid-gap: 10px
   }
@@ -212,6 +218,13 @@ span{
 
   .container.initial form {
     max-width: 500px;
+  }
+  .chef{
+    max-width: 60%;
+    height: 220px;
+  }
+  .ip{
+    height:40px;
   }
 
   .container.initial form input {
