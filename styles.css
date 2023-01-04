@@ -205,6 +205,9 @@ span{
   input.ip {
     height: 50px;
 }
+.flex-container{
+  font-family:'Poppins', sans-serif;
+}
 form {
   width: 70%;
 }
