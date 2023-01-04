@@ -202,8 +202,14 @@ span{
 }
 
 @media (max-width: 768px) {
+  html{
+    font-family:'Poppins', sans-serif;
+  }
   input.ip {
     height: 50px;
+}
+.flex-container{
+  font-family:'Poppins', sans-serif;
 }
 form {
   width: 70%;
@@ -211,9 +217,12 @@ form {
   .search-result {
     grid-gap: 10px
   }
-
+.brand{
+  font-family: 'Poppins', sans-serif;
+}  
   .container.initial .brand {
     font-size: 4rem;
+    
   }
 
   .container.initial form {
@@ -230,5 +239,8 @@ form {
   .container.initial form input {
     padding: 8px;
     font-size: 1.5rem;
+  }
+  .container{
+    font-family:'Poppins', sans-serif;
   }
 }
