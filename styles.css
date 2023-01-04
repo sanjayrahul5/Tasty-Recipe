@@ -219,6 +219,7 @@ form {
 }  
   .container.initial .brand {
     font-size: 4rem;
+    
   }
 
   .container.initial form {
@@ -235,5 +236,8 @@ form {
   .container.initial form input {
     padding: 8px;
     font-size: 1.5rem;
+  }
+  .container{
+    font-family:'Poppins', sans-serif;
   }
 }
